@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstrackFactory", "Abstrack
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{3ADD3B95-9E20-4E7F-812B-2D361E2B6920}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{5E64737F-259E-4E54-A4C2-C033C42EE285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facada", "Facada\Facada.csproj", "{BFD56871-4FDA-45FE-9142-4F56518F0108}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,8 +37,15 @@ Global
 		{3ADD3B95-9E20-4E7F-812B-2D361E2B6920}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ADD3B95-9E20-4E7F-812B-2D361E2B6920}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ADD3B95-9E20-4E7F-812B-2D361E2B6920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD56871-4FDA-45FE-9142-4F56518F0108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD56871-4FDA-45FE-9142-4F56518F0108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD56871-4FDA-45FE-9142-4F56518F0108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD56871-4FDA-45FE-9142-4F56518F0108}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFD56871-4FDA-45FE-9142-4F56518F0108} = {5E64737F-259E-4E54-A4C2-C033C42EE285}
 	EndGlobalSection
 EndGlobal

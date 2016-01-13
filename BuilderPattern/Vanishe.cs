@@ -23,14 +23,9 @@ namespace BuilderPattern
             set { this.parts[key] = value; }
         }
 
-        public void Slow
+        public void Slow()
         {
-            Console.WriteLine("---------------------------");
-            Console.WriteLine("Vehicle Type: {0}", this.vehicleType);
-            Console.WriteLine(" Frame  : {0}", this["frame"]);
-            Console.WriteLine(" Engine : {0}", this["engine"]);
-            Console.WriteLine(" #Wheels: {0}", this["wheels"]);
-            Console.WriteLine(" #Doors : {0}", this["doors"]);
+           //TODO:
         }
     }
 }
